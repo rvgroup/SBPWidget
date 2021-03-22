@@ -82,14 +82,14 @@
 		05D00E95C801B1088DB5E052AF8FD433 /* SBPWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBPWidget-dummy.m"; sourceTree = "<group>"; };
 		065D47A445C53A23DC5AD83B30C554DB /* BaseInteractiveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseInteractiveView.swift; sourceTree = "<group>"; };
 		0B7877AD8B7FC960BAFBECEE36A2E975 /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
-		0CAF60016E024C5905D579ECCFB442E6 /* Pods_SBPWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBPWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAF60016E024C5905D579ECCFB442E6 /* Pods_SBPWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SBPWidget_Tests.framework; path = "Pods-SBPWidget_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DE5F52AE33375D7F918A79D31FFAB4 /* SBPWidgetRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SBPWidgetRouter.swift; sourceTree = "<group>"; };
 		12193D8D388956A8AFC0D390DE3BEDF4 /* SBPWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SBPWidget-Info.plist"; sourceTree = "<group>"; };
 		15883AE0A64545FEAA9E991F378A999B /* BaseRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 		179E1EE4741849B8DBEC8562DA7C73BB /* SBPWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SBPWidget.modulemap; sourceTree = "<group>"; };
 		17E1FBEF2AEFBEC68A1A10B50BC8FDCE /* Pods-SBPWidget_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBPWidget_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		18DACAC0C4B2031A635C90BDD85A5089 /* Pods-SBPWidget_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBPWidget_Example-Info.plist"; sourceTree = "<group>"; };
-		1AB2609057B97E4B91CFC6FAB40DEA5C /* Pods_SBPWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBPWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2609057B97E4B91CFC6FAB40DEA5C /* Pods_SBPWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SBPWidget_Example.framework; path = "Pods-SBPWidget_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB9AE218242036294AE7A79B9F5FD55 /* SBPWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBPWidget.release.xcconfig; sourceTree = "<group>"; };
 		2A7749D2861150FB285542521A3215F8 /* Pods-SBPWidget_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SBPWidget_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2B87D0AE861057BFB277BF6B9BBF082E /* arrowDown.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		36BDD59B2AB6B6E825CCC0CCBE46D8BF /* SBPWidgetBankViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SBPWidgetBankViewItem.swift; sourceTree = "<group>"; };
 		389B9717A46E6318F81B9394D91DFAC3 /* CloseRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloseRoute.swift; sourceTree = "<group>"; };
 		3A4C71FD185089021ADB9DB8CDC26DE1 /* Pods-SBPWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBPWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3A4FFE14182874243548D0D8535CF8C3 /* SBPWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBPWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4FFE14182874243548D0D8535CF8C3 /* SBPWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SBPWidget.framework; path = SBPWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B09B51463B15CF6785400AD0F7E498B /* ErrorHandlable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorHandlable.swift; sourceTree = "<group>"; };
 		3B7D2772CDD605C7A31B124FDFC4DCE8 /* SBPBankCellView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SBPBankCellView.swift; sourceTree = "<group>"; };
 		3E3FF9AFD7C9E93B9E71E8054C7DCBAB /* SBPWidgetModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPWidgetModule.swift; path = SBPWidget/Sources/SBPWidgetModule.swift; sourceTree = "<group>"; };
@@ -113,11 +113,11 @@
 		5426A46B1757515586A926E701D1A914 /* SBPWidgedTableManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SBPWidgedTableManager.swift; sourceTree = "<group>"; };
 		5485C6451955F944DBF66F7797C6EC30 /* Pods-SBPWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBPWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		59A2626CA683212D7BD7AB85639F1C00 /* Pods-SBPWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SBPWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A3821F6197B2D893883EE2ADDF0FEB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A3821F6197B2D893883EE2ADDF0FEB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5F4439CBFFB407AE58B35E96FAF53739 /* UITableView+ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableView.swift"; sourceTree = "<group>"; };
 		69D3AB8FC7BCA25E94B94387737D812F /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		6EF095AC3BC283C84EB0967D8B79A3F3 /* Images.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Images.bundle; path = SBPWidget/Assets/Images.bundle; sourceTree = "<group>"; };
-		6F1493D1E6A3FC38A39AE74ABB91212D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6F1493D1E6A3FC38A39AE74ABB91212D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7182A6D431C5483E43D883557A35B187 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75CEAB6D46B76726B79C4C557499DCCD /* Pods-SBPWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBPWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		9004A81A17433BB786E006FC3AB84014 /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		99AA4CA277B0D129D16C356151F6CE47 /* Pods-SBPWidget_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SBPWidget_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D031B2F922634C2D1DEC3BD84406F26 /* sbp_logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = sbp_logo.png; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F16D8FE4CAE8A2B588D379D5A316934 /* SBPWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBPWidget-prefix.pch"; sourceTree = "<group>"; };
 		A4A362732F24AE2AF27477968D382B40 /* sbp_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sbp_logo@2x.png"; sourceTree = "<group>"; };
 		A959286BC37BA83C881D23B7745C7ADE /* HalfModalTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HalfModalTransition.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		DA54171A21E5190F73F0446F6647E089 /* SBPWidgetPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SBPWidgetPresenter.swift; sourceTree = "<group>"; };
 		DF17F3A10B3EE7C750C6A7E7A85CD1EA /* BaseModuleFactoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseModuleFactoryProtocol.swift; sourceTree = "<group>"; };
 		EB8D1A3925FE76A98D24895332FCB4CF /* Pods-SBPWidget_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBPWidget_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECE19218A45122514C0AFFDC299BE126 /* SBPWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SBPWidget.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		ECE19218A45122514C0AFFDC299BE126 /* SBPWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SBPWidget.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF2A05BAB9150F05651C295DC424D5EB /* Pods-SBPWidget_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SBPWidget_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F0EE372EEB0D429DCEE62ADFC4589AA8 /* Pods-SBPWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBPWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F117362106FD70468B02CF9A55C89CB4 /* UIImageView+Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
@@ -201,6 +201,7 @@
 			children = (
 				A959286BC37BA83C881D23B7745C7ADE /* HalfModalTransition.swift */,
 			);
+			name = Transitions;
 			path = Transitions;
 			sourceTree = "<group>";
 		};
@@ -255,6 +256,7 @@
 				759624B1B0E98CA65098D31AADB70E07 /* Routes */,
 				18B0A31495AB1A3E36BD7E88A547BD54 /* Transitions */,
 			);
+			name = Routing;
 			path = Routing;
 			sourceTree = "<group>";
 		};
@@ -300,6 +302,7 @@
 			children = (
 				389B9717A46E6318F81B9394D91DFAC3 /* CloseRoute.swift */,
 			);
+			name = Routes;
 			path = Routes;
 			sourceTree = "<group>";
 		};
@@ -311,6 +314,7 @@
 				53890AB4B4B1CF75C2DB3E8FAC10E30B /* SBPWidgetCellType.swift */,
 				E0A381711FB321D249DD203E46555927 /* Cell */,
 			);
+			name = Submodules;
 			path = Submodules;
 			sourceTree = "<group>";
 		};
@@ -361,6 +365,7 @@
 			children = (
 				51E5FBB5E119AC49F28AB592C1B696E5 /* SBPBank.swift */,
 			);
+			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -413,6 +418,7 @@
 			children = (
 				498B48BD4149A7E49BF3C1AEA3D7B66C /* HalfModalPresentationController.swift */,
 			);
+			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -423,6 +429,7 @@
 				7182A6D431C5483E43D883557A35B187 /* BaseTableViewCell.swift */,
 				89C9183FEAE929D00C12A53F08577ABD /* BaseViewController.swift */,
 			);
+			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -441,6 +448,7 @@
 				F27C777E885130AA9F1B91C0610FFEC8 /* SBPBankCell.swift */,
 				3B7D2772CDD605C7A31B124FDFC4DCE8 /* SBPBankCellView.swift */,
 			);
+			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -455,6 +463,7 @@
 				C544142F2EA88915A706864F06190F7F /* SBPWidgetViewController.swift */,
 				7BC954238C8C37621C538831BBABB48C /* Submodules */,
 			);
+			name = Widget;
 			path = Widget;
 			sourceTree = "<group>";
 		};
@@ -466,6 +475,7 @@
 				F938AAD156410F3D6ED8BA2DB7C6F582 /* UIView+ReturnAnchors.swift */,
 				B9D4E645E029014A105622A5D3047764 /* UIView+RoundCorners.swift */,
 			);
+			name = UIView;
 			path = UIView;
 			sourceTree = "<group>";
 		};
@@ -970,7 +980,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

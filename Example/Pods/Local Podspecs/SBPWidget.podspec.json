@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "summary": "A short description of SBPWidget.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Nikolay Hordynchuk/SBPWidget",
+  "homepage": "https://github.com/0-mykola/SBPWidget",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Nikolay Hordynchuk": "dev.nikolaz@gmail.com"
+    "Mykola Hordynchuk": "dev.nikolaz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Nikolay Hordynchuk/SBPWidget.git",
+    "git": "https://github.com/0-mykola/SBPWidget.git",
     "tag": "1.0.0"
   },
   "platforms": {
