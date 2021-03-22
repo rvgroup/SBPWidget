@@ -1,0 +1,6 @@
+framework module SBPWidget {
+  umbrella header "SBPWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

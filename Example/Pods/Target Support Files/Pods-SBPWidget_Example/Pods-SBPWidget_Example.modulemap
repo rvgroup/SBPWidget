@@ -1,0 +1,6 @@
+framework module Pods_SBPWidget_Example {
+  umbrella header "Pods-SBPWidget_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
