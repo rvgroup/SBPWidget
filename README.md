@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/SBPWidget.svg?style=flat)](https://cocoapods.org/pods/SBPWidget)
 [![Platform](https://img.shields.io/cocoapods/p/SBPWidget.svg?style=flat)](https://cocoapods.org/pods/SBPWidget)
 
+### Preview
+![preview](art/preview.jpg)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
