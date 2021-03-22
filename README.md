@@ -48,6 +48,22 @@ class ViewController: UIViewController {
 }
 ```
 
+also you need add <b>LSApplicationQueriesSchemes</b> key into you project <b>info.plst</b> 
+
+```plst
+ <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>bank100000000000</string>
+    <string>bank100000000001</string>
+    ...
+    <string>bank100000000999</string>
+    <string>bank100000001000</string>
+  </array>
+````
+
+That's need for ```UIApplication.shared.canOpenURL``` method worked correctly.
+You can copy and paste all lines from example
+
 ## License
 
 SBPWidget is available under the MIT license. See the LICENSE file for more info.
