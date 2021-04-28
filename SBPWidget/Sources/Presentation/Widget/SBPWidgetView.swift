@@ -19,16 +19,13 @@ class SBPWidgetView: BaseInteractiveView {
   let emptyContainer = UIView()
   let emptyTextLabel = UILabel()
   
-  let footerTextLabel = UILabel()
-  
   var bankContainerHeightConstraint: NSLayoutConstraint?
 
   override func addViews() {
     [headerView,
      logoImageView,
      descriptionTextLabel,
-     bankContainer,
-     footerTextLabel].forEach { addSubview($0) }
+     bankContainer].forEach { addSubview($0) }
     [closeButton].forEach { headerView.addSubview($0) }
     [emptyContainer, tableView].forEach { bankContainer.addSubview($0) }
     [emptyTextLabel].forEach { emptyContainer.addSubview($0) }
@@ -60,7 +57,7 @@ class SBPWidgetView: BaseInteractiveView {
       .anchorLeft(leftAnchor, 15)
       .anchorTop(descriptionTextLabel.bottomAnchor, 15)
       .anchorRight(rightAnchor, 15)
-      .anchorBottom(footerTextLabel.topAnchor, 10)
+      .anchorBottom(bottomAnchor, 15 + UIWindow.safeAreaTopBottomHeight)
     
     emptyContainer.fillSuperview()
     emptyTextLabel.fillSuperview()
@@ -72,12 +69,6 @@ class SBPWidgetView: BaseInteractiveView {
       .anchorBottom(bankContainer.bottomAnchor, 0)
     
     bankContainerHeightConstraint = bankContainer._anchorHeight(82 * 4)
-
-    footerTextLabel
-      .anchorTop(bankContainer.bottomAnchor, 10)
-      .anchorLeft(leftAnchor, 15)
-      .anchorRight(rightAnchor, 15)
-      .anchorBottom(bottomAnchor, 15 + UIWindow.safeAreaTopBottomHeight)
   }
   
   override func configureViews() {
@@ -94,12 +85,6 @@ class SBPWidgetView: BaseInteractiveView {
     descriptionTextLabel.text = LS.SBPWidget.descriptionText
     descriptionTextLabel.textColor = .black
     descriptionTextLabel.numberOfLines = 0
-    
-    footerTextLabel.font = .systemFont(ofSize: 14, weight: .regular)
-    footerTextLabel.textAlignment = .center
-    footerTextLabel.text = LS.SBPWidget.footerText
-    footerTextLabel.textColor = UIColor.black.withAlphaComponent(0.5)
-    footerTextLabel.numberOfLines = 0
     
     logoImageView.contentMode = .scaleAspectFit
     logoImageView.setContentHuggingPriority(.required, for: .horizontal)

@@ -6,6 +6,5 @@
   
 */
 
-LS.SBPWidget.descriptionText = "Подтвердите оплату в Вашем\nбанковском приложение";
-LS.SBPWidget.footerText = "Выбрав банк, Вы перейдете в мобильное\nприложение для завершения оплаты.";
+LS.SBPWidget.descriptionText = "Выберите банк\nдля подтверждения оплаты";
 LS.SBPWidget.emptyText = "Отсутствует банковское\nприложение";
