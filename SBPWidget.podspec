@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBPWidget'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'SBPWidget provide modal window with list of banks'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,6 @@ TODO: Add long description of the pod here.
   s.resources = 'SBPWidget/Assets/**/*'
 
   s.swift_version = '5.0'
-  s.ios.deployment_target  = '11.0'
+  s.ios.deployment_target  = '10.0'
 
 end
