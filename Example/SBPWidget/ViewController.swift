@@ -19,6 +19,10 @@ class ViewController: UIViewController {
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     
+    showSBP()
+  }
+  
+  @IBAction func showSBP() {
     SBPWidgetModule().show(on: self) { scheme in
       print(scheme)
     }
