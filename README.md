@@ -61,7 +61,9 @@ also you need add <b>LSApplicationQueriesSchemes</b> key into you project <b>inf
     <string>bank100000000999</string>
     <string>bank100000001000</string>
   </array>
-````
+```
+
+<b>Warning!</b> Starting with iOS 15 there's limit in maximum 50 entries in list, so you probably need to take first 50 entries from [c2bmembers.json](https://qr.nspk.ru/proxyapp/c2bmembers.json). Look for details [here](https://developer.apple.com/documentation/uikit/uiapplication/1622952-canopenurl#discussion).
 
 That's need for ```UIApplication.shared.canOpenURL``` method worked correctly.
 You can copy and paste all lines from example
