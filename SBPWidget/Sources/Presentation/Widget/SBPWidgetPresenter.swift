@@ -19,7 +19,7 @@ protocol SBPWidgetInteractorToPresenterProtocol: ErrorHandlable {
 }
 
 protocol SBPWidgetModuleOutput: AnyObject {
-  func selectedBankApplicationScheme(_ scheme: String)
+  func selectedBankApplicationScheme(_ scheme: String?)
 }
 
 protocol SBPWidgetModuleInput: AnyObject {
@@ -34,6 +34,12 @@ final class SBPWidgetPresenter: SBPWidgetModuleInput {
   
   //Module input
   var moduleOutput: SBPWidgetModuleOutput?
+  
+  private var selectedScheme: String?
+  
+  func handleDismiss() {
+    moduleOutput?.selectedBankApplicationScheme(selectedScheme)
+  }
 }
 
 
@@ -63,7 +69,7 @@ extension SBPWidgetPresenter: SBPWidgetInteractorToPresenterProtocol {
   }
   
   func onInteractorSelectedBankApplicationScheme(_ scheme: String) {
-    moduleOutput?.selectedBankApplicationScheme(scheme)
+    selectedScheme = scheme
     router?.toClose()
   }
   

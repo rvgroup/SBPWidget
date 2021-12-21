@@ -24,7 +24,7 @@ class ViewController: UIViewController {
   
   @IBAction func showSBP() {
     SBPWidgetModule().show(on: self) { scheme in
-      print(scheme)
+      print(scheme ?? "widget has been closed")
     }
   }
 }

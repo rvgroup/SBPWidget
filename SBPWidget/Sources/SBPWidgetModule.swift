@@ -10,20 +10,24 @@ import UIKit
 typealias EventHandler<T> = ((T) -> Void)
 public typealias VoidClosure = () -> Void
 
-public class SBPWidgetModule: SBPWidgetModuleOutput {
-  public typealias CompletionHandler = (String) -> ()
+public class SBPWidgetModule {
+  public typealias CompletionHandler = (String?) -> ()
+  
   var completion: CompletionHandler?
   
   public init() {}
+  
   public func show(on viewController: UIViewController, completion: CompletionHandler?) {
-    let transition = HalfModalTransition()
+    self.completion = completion
+    
     let sbpModule = AnyModuleFactory().create(SBPWidgetModuleFactory.self)
     sbpModule.input.moduleOutput = self
-    self.completion = completion
-    transition.open(sbpModule.viewable.viewController, from: viewController, completion: nil)
+    sbpModule.router.transition.open(sbpModule.viewable.viewController, from: viewController, completion: nil)
   }
-  
-  func selectedBankApplicationScheme(_ scheme: String) {
+}
+
+extension SBPWidgetModule: SBPWidgetModuleOutput {
+  func selectedBankApplicationScheme(_ scheme: String?) {
     self.completion?(scheme)
   }
 }

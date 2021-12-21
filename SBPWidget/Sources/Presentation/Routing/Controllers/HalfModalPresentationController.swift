@@ -33,7 +33,14 @@ final class HalfModalPresentationController: UIPresentationController {
   var panGestureRecognizer: UIPanGestureRecognizer
   var direction: CGFloat = 0
   
+  var dismissCallback: VoidClosure?
+  
   @objc func didTap(tap: UITapGestureRecognizer) {
+    dismissPresentedViewController()
+  }
+  
+  private func dismissPresentedViewController() {
+    dismissCallback?()
     presentedViewController.dismiss(animated: true, completion: nil)
   }
   
@@ -118,7 +125,7 @@ final class HalfModalPresentationController: UIPresentationController {
       direction = velocity.y
     case .ended:
       if direction > 0 {
-        presentedViewController.dismiss(animated: true, completion: nil)
+        dismissPresentedViewController()
       } else {
         if let presentedView = presentedView, let containerView = self.containerView {
           UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: { () -> Void in

@@ -25,6 +25,7 @@ final class SBPWidgetModuleFactory: BaseModuleFactoryProtocol {
     interactor.sbpBankService = SBPBankService()
     
     router.view = view
+    router.transition.dismissCallback = presenter.handleDismiss
 
     return (presenter, view, router)
   }
