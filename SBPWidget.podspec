@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBPWidget'
-  s.version          = '1.0.1'
+  s.version          = '1.2.0'
   s.summary          = 'SBPWidget provide modal window with list of banks'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/0-mykola/SBPWidget'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mykola Hordynchuk' => 'dev.nikolaz@gmail.com' }
-  s.source           = { :git => 'https://github.com/0-mykola/SBPWidget.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/orakull/SBPWidget.git', :tag => s.version.to_s }
 
   s.source_files = 'SBPWidget/Sources/**/*'
   s.resources = 'SBPWidget/Assets/**/*'
