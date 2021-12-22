@@ -8,26 +8,18 @@
 
 import Foundation
 
-enum SBPBankServiceError: Error {
-  case invalidPath
-}
-
 protocol SBPBankServiceProtocol {
-  func getBankApplications() -> [SBPBank]?
+  func getBankApplications() throws -> [SBPBank]
 }
 
 final class SBPBankService: SBPBankServiceProtocol {
-  let url = "https://qr.nspk.ru/proxyapp/c2bmembers.json"
+  private let url = "https://qr.nspk.ru/proxyapp/c2bmembers.json"
   
-  func getBankApplications() -> [SBPBank]? {
-    guard let url = URL(string: url) else { return nil }
-    do {
-      let data = try Data(contentsOf: url, options: .alwaysMapped)
-      let decoder = JSONDecoder()
-      let jsonData = try decoder.decode(SBPBankRaw.self, from: data)
-      return jsonData.dictionary
-    } catch {
-      return nil
-    }
+  func getBankApplications() throws -> [SBPBank] {
+    let url = URL(string: url)!
+    let data = try Data(contentsOf: url, options: .alwaysMapped)
+    let decoder = JSONDecoder()
+    let jsonData = try decoder.decode(SBPBankRaw.self, from: data)
+    return jsonData.dictionary
   }
 }

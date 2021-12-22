@@ -23,8 +23,13 @@ class ViewController: UIViewController {
   }
   
   @IBAction func showSBP() {
-    SBPWidgetModule().show(on: self) { scheme in
-      print(scheme ?? "widget has been closed")
+    SBPWidgetModule().show(on: self) { result in
+      switch result {
+      case let .success(scheme):
+        print(scheme ?? "widget has been closed")
+      case let .failure(error):
+        print(error)
+      }
     }
   }
 }

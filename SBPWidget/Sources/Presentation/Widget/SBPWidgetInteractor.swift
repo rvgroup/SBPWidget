@@ -23,12 +23,13 @@ final class SBPWidgetInteractor {
 
 extension SBPWidgetInteractor: SBPWidgetPresenterToInteractorProtocol {
   func getBankApplications() {
-    if let apps = sbpBankService.getBankApplications() {
+    do {
+      let apps = try sbpBankService.getBankApplications()
       checkiOSApplications(with: apps)
       bankApps = apps.filter { $0.isInstalled }
       presenter?.onInteractorReceivedBankApplications(bankApps)
-    } else {
-      presenter?.onInteractorReceivedBankApplications([])
+    } catch {
+      presenter?.onInteractorError(error)
     }
   }
   
