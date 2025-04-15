@@ -8,7 +8,9 @@
 
 import UIKit
 
+protocol SBPWidgetRoutes {
+    typealias Routes = CloseRoute
+}
 
-final class SBPWidgetRouter: BaseRouter, SBPWidgetRouter.Routes {
-  typealias Routes = CloseRoute
+final class SBPWidgetRouter: BaseRouter, SBPWidgetRoutes {
 }

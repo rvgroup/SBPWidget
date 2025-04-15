@@ -19,7 +19,7 @@ final class SBPWidgetModuleFactory: BaseModuleFactoryProtocol {
     
     presenter.view = view
     presenter.interactor = interactor
-    presenter.router = router
+    presenter.router = router as? SBPWidgetRouter.Routes
     
     interactor.presenter = presenter
     interactor.sbpBankService = SBPBankService()
